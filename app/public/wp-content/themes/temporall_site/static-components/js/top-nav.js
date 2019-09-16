@@ -19,8 +19,9 @@ $('#top-nav').ready(function () {
             $(".mobile-menu").hide();
         }
 
-        if (!$target.is('#activate-sub-dropdown') && !$target.is('#activate-sub-dropdown *') && !$target.is('.menu-dropdown') && !$target.is('.menu-dropdown *')) {
+        if (!$target.is('.menu-dropdown') && !$target.is('.menu-dropdown *') && !$target.is('#activate-sub-dropdown') && !$target.is('#activate-sub-dropdown *') ) {
             $(".dropdown").hide();
+            $(".sub-dropdown").hide();
         }
         // !$target.is('.menu-dropdown') && !$target.is('.menu-dropdown *')
 
