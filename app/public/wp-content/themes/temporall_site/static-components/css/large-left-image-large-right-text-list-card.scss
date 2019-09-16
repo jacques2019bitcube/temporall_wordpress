@@ -1,0 +1,38 @@
+.large-left-image-large-right-text-list-card{
+    width: 1170px;
+    height: 792px;
+    position: relative;
+    .text-part {
+        display: inline-block;
+        width: 585px;
+        height: 792px;
+        background: #f8f8f8;
+        opacity: 1;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+      .img-part {
+        display: inline-block;
+        width: 585px;
+        height: 792px;
+        background: transparent url('./assets/images/31214.png');
+        opacity: 1;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      }
+      .inner-wrapper {
+        padding: 30px 70px 30px 30px;
+      }
+      .heading3{
+        margin-bottom:30px;
+      }
+      .body-text-bold-colored{
+        margin-bottom: 24px;
+      }
+      .body-text{
+        margin-bottom:24px;
+      }
+     
+}

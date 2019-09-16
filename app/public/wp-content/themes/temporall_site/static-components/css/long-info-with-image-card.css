@@ -1,0 +1,24 @@
+.long-info-with-image-card {
+  width: 270px;
+  height: 396px;
+}
+
+.long-info-with-image-card .img-part {
+  width: 76px;
+  height: 76px;
+  background: transparent url("./assets/images/Image8.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.long-info-with-image-card .inner-wrapper {
+  margin: 30px 30px 0px 30px;
+}
+
+.long-info-with-image-card .inner-wrapper .body-text {
+  padding: 18px 0px 0px 0px;
+}
+
+.long-info-with-image-card .inner-wrapper .heading3 {
+  padding: 24px 0px 0px 0px;
+}
+/*# sourceMappingURL=long-info-with-image-card.css.map */

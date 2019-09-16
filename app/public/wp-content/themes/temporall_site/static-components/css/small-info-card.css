@@ -1,0 +1,15 @@
+.small-info-card {
+  width: 370px;
+  height: 251px;
+}
+
+.small-info-card .heading1 {
+  text-align: center;
+  padding: 48px 135px 24px 137px;
+}
+
+.small-info-card .heading3 {
+  text-align: center;
+  padding: 0px 3px 47px 3px;
+}
+/*# sourceMappingURL=small-info-card.css.map */

@@ -1,0 +1,39 @@
+.side-banner-contact-buttons .contact-icons {
+  position: fixed;
+  right: -2px;
+  top: 50%;
+  z-index: 2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #ed7401;
+  width: 60px;
+  height: 123px;
+}
+
+.side-banner-contact-buttons .email {
+  display: block;
+  height: 61px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.side-banner-contact-buttons .email img {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.side-banner-contact-buttons .phone {
+  display: block;
+  height: 62px;
+}
+
+.side-banner-contact-buttons img {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=side-banner-contact-buttons.css.map */
