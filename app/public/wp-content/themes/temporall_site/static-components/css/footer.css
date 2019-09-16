@@ -1,0 +1,113 @@
+.footer-wrapper .heading2 {
+  line-height: 48px;
+}
+
+.footer-wrapper .footer-text {
+  line-height: 28px;
+}
+
+.footer-wrapper .body-text {
+  margin-bottom: 24px;
+}
+
+.footer-wrapper .footer-imageText {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.footer-wrapper .footer-image-text {
+  background-image: url(../../assets/images/MaskGroup1.png);
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 22.5%;
+  background-size: cover !important;
+  background-repeat: round !important;
+  height: 200px;
+  width: 100%;
+}
+
+.footer-wrapper .footer {
+  padding: 63px 0px 66px 0px;
+}
+
+.footer-wrapper .footer p {
+  margin: 0;
+}
+
+.footer-wrapper .footer a {
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  .footer-wrapper .footer-imageText {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .footer-wrapper .footer-imageText {
+    font-size: 27px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .footer-wrapper .footer-imageText {
+    font-size: 35px;
+  }
+}
+
+.footer-wrapper .footer-flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.footer-wrapper .footer-flex-item {
+  width: auto;
+  height: auto;
+}
+
+.footer-wrapper .footer-margin-right {
+  margin-right: 325px;
+}
+
+.footer-wrapper .footer-margin-left {
+  margin-left: 325px;
+}
+
+@media (max-width: 1400px) {
+  .footer-wrapper .footer-margin-right {
+    margin: unset;
+  }
+  .footer-wrapper .footer-margin-left {
+    margin: unset;
+  }
+}
+
+.footer-wrapper .footer-flex-item a {
+  display: block;
+}
+
+.footer-wrapper img:nth-child(n) {
+  padding-top: 26px;
+}
+
+.footer-wrapper img:nth-child(1) {
+  padding-top: 0px;
+}
+/*# sourceMappingURL=footer.css.map */

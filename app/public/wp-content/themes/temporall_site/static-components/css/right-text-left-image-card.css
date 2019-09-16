@@ -1,0 +1,47 @@
+.right-text-left-image {
+  width: 1170px;
+  height: 546px;
+  position: relative;
+  padding: 45px 30px 41px 30px;
+}
+
+.right-text-left-image .text-part {
+  display: inline-block;
+  width: 585px;
+  height: 530px;
+  background: #f8f8f8;
+  opacity: 1;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.right-text-left-image .img-part {
+  display: inline-block;
+  width: 585px;
+  height: 530px;
+  background: transparent url("./assets/images/rodion-kutsaev-0VGG7cqTwCo-unsplash.png");
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.right-text-left-image .inner-wrapper {
+  padding: 33px 30px 24px 30px;
+}
+
+.right-text-left-image .primary-btns {
+  position: relative;
+  margin-left: 35px;
+  margin-bottom: 33px;
+}
+
+.right-text-left-image .btn-placement {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+}
+/*# sourceMappingURL=right-text-left-image-card.css.map */

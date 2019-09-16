@@ -1,0 +1,35 @@
+.left-text-right-image{
+    width: 1170px;
+    height: 530px;
+    position: relative;
+    padding: 45px 30px 41px 30px;
+
+    .text-part{
+        display: inline-block;
+        width: 585px;
+        height: 530px;
+        background: #F8F8F8;
+        opacity: 1;
+        position: absolute;
+        left:0px;
+        top:0px;
+    }
+    .img-part{
+        display: inline-block;
+        width: 585px;
+        height: 530px;
+        background: transparent url('./assets/images/markus-spiske-4T5MTKMrjZg-unsplash.png');
+        opacity: 1;
+        position: absolute;
+        right:0px;
+        top:0px;
+    }
+    .inner-wrapper{
+        padding:45px 30px 41px 30px;
+    }
+    .heading2-colored,.body-text,.heading3{
+        margin-top: 24px;
+    }
+    
+}
+
