@@ -13,6 +13,7 @@ function theme_styles()
 	wp_enqueue_style( 'side-bar', get_template_directory_uri() . '/static-components/css/side-banner-contact-buttons.css' );
 	wp_enqueue_style( 'hero-image', get_template_directory_uri() . '/static-components/css/hero-image-left-text-and-btn.css' );
 	wp_enqueue_style( 'various-logos', get_template_directory_uri() . '/static-components/css/various-logos-section.css' );
+	wp_enqueue_style( 'left-text-right-image', get_template_directory_uri() . '/static-components/css/left-text-right-image-card' );
 
 	// // Conditionally load the FlexSlider CSS on the homepage
 	// if(is_page('home')) {
