@@ -24,19 +24,18 @@
 }
 
 .footer-wrapper .footer-image-text {
-  background-image: url(../../assets/images/MaskGroup1.png);
+  background-image: url(../../assets/images/Ipad-for-Website.png);
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
-  padding-top: 22.5%;
   background-size: cover !important;
   background-repeat: round !important;
-  height: 200px;
+  height: 130px;
   width: 100%;
 }
 
 .footer-wrapper .footer {
-  padding: 63px 0px 66px 0px;
+  padding: 60px 0px 66px 0px;
 }
 
 .footer-wrapper .footer p {
@@ -75,28 +74,26 @@
   flex-flow: row wrap;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  max-width: 912px;
+  margin: 20px auto;
+}
+
+@media (max-width: 700px) {
+  .footer-wrapper .footer-flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    text-align: center;
+  }
+  .footer-wrapper .footer-flex-container .footer-text {
+    padding-bottom: 20px;
+  }
 }
 
 .footer-wrapper .footer-flex-item {
   width: auto;
   height: auto;
-}
-
-.footer-wrapper .footer-margin-right {
-  margin-right: 325px;
-}
-
-.footer-wrapper .footer-margin-left {
-  margin-left: 325px;
-}
-
-@media (max-width: 1400px) {
-  .footer-wrapper .footer-margin-right {
-    margin: unset;
-  }
-  .footer-wrapper .footer-margin-left {
-    margin: unset;
-  }
 }
 
 .footer-wrapper .footer-flex-item a {

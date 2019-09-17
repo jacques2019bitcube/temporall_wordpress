@@ -1,4 +1,4 @@
-.footer-wrapper { 
+.footer-wrapper {
   .heading2 {
     line-height: 48px;
   }
@@ -23,18 +23,20 @@
   }
 
   .footer-image-text {
-    background-image: url(../../assets/images/MaskGroup1.png);
+    background-image: url(../../assets/images/Ipad-for-Website.png);
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
-    padding-top: 22.5%;
+    // padding-top: 22.5%;
     background-size: cover !important;
     background-repeat: round !important;
-    height: 200px;
+    // height: 200px;
+    height: 130px;
     width: 100%;
   }
   .footer {
-    padding: 63px 0px 66px 0px;
+    padding: 60px 0px 66px 0px;
+
     p {
       margin: 0;
     }
@@ -69,43 +71,47 @@
     flex-flow: row wrap;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    max-width: 912px;
+    margin: 20px auto;
+
+    @media (max-width: 700px) {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+      text-align: center;
+
+      .footer-text{
+        padding-bottom: 20px;
+      }
+    }
   }
   .footer-flex-item {
     width: auto;
     height: auto;
   }
 
-  .footer-margin-right {
-    margin-right: 325px;
-  }
-  .footer-margin-left {
-    margin-left: 325px;
-  }
-
-  @media (max-width: 1400px) {
-    .footer-margin-right {
-      margin: unset;
-    }
-    .footer-margin-left {
-      margin: unset;
-    }
-  }
+  // @media (max-width: 1400px) {
+  //   .footer-margin-right {
+  //     margin: unset;
+  //   }
+  //   .footer-margin-left {
+  //     margin: unset;
+  //   }
+  // }
 
   .footer-flex-item a {
     display: block;
   }
-  img:nth-child(n){
-    padding-top:26px;
+  img:nth-child(n) {
+    padding-top: 26px;
   }
-  img:nth-child(1){
-      padding-top:0px;
+  img:nth-child(1) {
+    padding-top: 0px;
   }
-  
 }
 
-
-
-// .footer-wrapper { 
+// .footer-wrapper {
 //   .footer-imageText {
 //         margin: 0 auto;
 //         width: -webkit-fit-content;
@@ -118,7 +124,7 @@
 //         transform: translate(-50%, -50%);
 //         position: absolute;
 //       }
-    
+
 //       .footer-image-text {
 //         background-image: url(./assets/images/MaskGroup1.png);
 //         position: relative;
@@ -137,5 +143,5 @@
 //             display: block;
 //           }
 //         }
-//       } 
+//       }
 // }
