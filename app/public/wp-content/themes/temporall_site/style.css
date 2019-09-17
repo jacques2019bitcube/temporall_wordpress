@@ -1,43 +1,15 @@
-@font-face {
-  font-family: "Akzidenz-GroteskPro-Md1";
-  src: url("./assets/fonts/AkzidenzGroteskPro-Md.woff") format("woff");
-}
-@font-face {
-  font-family: "Akzidenz-GroteskPro-Md2";
-  src: url("./assets/fonts/AkzidenzGroteskPro-Md.woff2") format("woff");
-}
-@font-face {
-  font-family: "akzid-groprobol1";
-  src: url("./assets/fonts/akzidgroprobol-webfont.woff") format("woff");
-}
-@font-face {
-  font-family: "akzid-groprobol2";
-  src: url("./assets//fonts/akzidgroprobol-webfont.woff2") format("woff");
-}
 
-@font-face {
-  font-family: "Helvetica-Neue-Medium";
-  src: url("./assets/fonts/HelveticaNeueMedium.woff") format("woff");
-}
 
-@font-face {
-  font-family: "Helvetica-Neue-Regular";
-  src: url("./assets/fonts/HelveticaNeueRegular.woff") format("woff");
-}
 
-.container-fluid {
-  padding: 0px !important;
-}
-.logoMain {
+/* .logoMain {
   width: auto;
   display: inline-block;
   left: 11.67%;
   position: relative;
-}
+} */
 
 @media (max-width: 450px) {
-  
- 
+
   .integration-section {
     padding: 15px !important;
   }
@@ -61,8 +33,6 @@
   }
 }
 
-
-
 .signInButton {
   border-radius: 40px;
   padding: 12px 46px 12px 46px;
@@ -71,125 +41,9 @@
   color: #ffffff;
 }
 
-
-.hero-text-and-image {
-  height: 779px;
-  width: 100%;
-  position: relative;
-  background-color: #f8f8f8;
-}
-.hero-image {
-  display: inline-block;
-  vertical-align: bottom;
-  bottom: 0px;
-  right: 0px;
-  position: absolute;
-}
-.hero-text {
-  position: absolute;
-  display: block;
-  left: 19.53%;
-  top: 38.38%;
-}
-
-
-
-@media screen and (min-width: 0px) and (max-width: 1050px) {
-  .hero-text {
-    position: relative;
-    left: unset !important;
-    top: unset !important;
-    margin: 0 auto;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    text-align: center;
-    display: block;
-  }
-  .hero-button {
-    display: inline !important;
-    text-align: center !important;
-  }
-  .hero-text-and-image {
-    height: -webkit-fit-content !important;
-    height: -moz-fit-content !important;
-    height: fit-content !important;
-  }
-
-  .hero-image {
-    position: relative;
-  }
-  .hero-image img {
-    position: relative;
-    width: 100% !important;
-  }
-}
-@media screen and (min-width: 1051px) and (max-width: 1200px) {
-  .hero-text {
-    left: 10%;
-    top: 31.38%;
-  }
-  .hero-text-and-image {
-    height: 500px;
-  }
-  .hero-image img {
-    width: 620px !important;
-  }
-}
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
-  .hero-text {
-    top: 31.38%;
-  }
-  .hero-text-and-image {
-    height: 500px;
-  }
-  .hero-image img {
-    width: 650px !important;
-  }
-}
-@media screen and (min-width: 1400px) and (max-width: 1600px) {
-  .hero-text-and-image {
-    height: 600px;
-  }
-  .hero-image img {
-    width: 700px !important;
-  }
-}
-
-.hero-text-title {
-  font-size: 52px;
-  display: block;
-  font-family: "Akzidenz-GroteskPro-Md1";
-  margin-bottom: 24px;
-}
-.hero-text-body {
-  font-size: 32px;
-  display: block;
-  font-family: "Helvetica-Neue-Regular";
-  margin-bottom: 24px;
-}
-.hero-button {
-  border-radius: 40px;
-  padding: 14px 50px 14px 50px;
-  border-style: hidden;
-  background-color: #ed7401;
-  display: block;
-  color: #ffffff;
-  font-size: 14px;
-  margin-bottom: 16px;
-  font-family: "Helvetica-Neue-Medium";
-}
-
-.hero-link {
-  color: #ed7401;
-  display: block;
-  font-family: "Helvetica-Neue-Medium";
-  margin-left: 10px;
-}
-
 .why-us-text {
-  font-size: 32px;
-  font-family: "Akzidenz-GroteskPro-Md1";
+  /* font-size: 32px;
+  font-family: "Akzidenz-GroteskPro-Md1"; */
   padding: 60px;
   border-bottom: 1px solid #cccccc;
   margin: 0 auto;
@@ -272,7 +126,7 @@
   padding-bottom: 30px;
 }
 
-.product-statment-text p:nth-child(1) {
+/* .product-statment-text p:nth-child(1) {
   font-size: 28px;
   margin-bottom: 24px;
   font-family: "Akzidenz-GroteskPro-Md1";
@@ -280,7 +134,7 @@
 .product-statment-text p:nth-child(2) {
   font-size: 18px;
   font-family: "Helvetica-Neue-Regular";
-}
+} */
 
 .productStatement-wrapper {
   width: -webkit-fit-content;
@@ -295,7 +149,7 @@
 }
 
 .product-statement-only-text p {
-  font-size: 32px;
+ 
   text-align: center;
 }
 
@@ -319,9 +173,7 @@
   text-align: center;
 }
 
-.logo-inner-container > div {
-  padding: 25px;
-}
+
 
 .integration-logos {
   width: -webkit-fit-content;
@@ -340,7 +192,7 @@
   display: inline-block;
 }
 
-.integration-items p:nth-child(1) {
+/* .integration-items p:nth-child(1) {
   font-size: 28px;
   margin-bottom: 24px;
   font-family: "Akzidenz-GroteskPro-Md1";
@@ -348,7 +200,7 @@
 .integration-items p:nth-child(2) {
   font-size: 18px;
   font-family: "Helvetica-Neue-Regular";
-}
+} */
 .integraion-logo-spacing {
   padding: 47px;
   text-align: center;
@@ -377,8 +229,4 @@
   }
 }
 
-.product-statement-only-text p {
-  font-size: 32px;
-  text-align: center;
-  font-family: "Akzidenz-GroteskPro-Md1";
-}
+
