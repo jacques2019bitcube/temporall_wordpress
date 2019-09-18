@@ -76,5 +76,6 @@
         </div>
     </div>
 </div>
+<script src="wp-content/themes/temporall_site/static-components/js/top-nav.js"></script>
 </body>
 </html>
