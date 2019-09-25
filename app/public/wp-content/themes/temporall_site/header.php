@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(). '/static-components/css/left-text-right-image-card.css' ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(). '/left-text-right-image-card.css' ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(). '/general-style-guide.css' ?>">
     <title>title</title>
     <?php wp_head() ?> 
 </head>
@@ -21,9 +22,11 @@
             <div class="burger-bar"></div>
             <div class="burger-bar"></div>
         </div>
-        <div class="logoMain">
-            <img src="/wp-content/themes/temporall_site/assets/images/Path1.svg">
-        </div>
+        <a href="/">
+            <div class="logoMain">
+                <img src="/wp-content/themes/temporall_site/assets/images/Path1.svg">
+            </div>
+        </a>
         <div class="menu">
             <div class="dropdown">
                 <div class="dropdown-wrapper">
@@ -31,15 +34,35 @@
                         Cases
                         <img src="/wp-content/themes/temporall_site/assets/images/ic_arrow_drop_down_24px_right.svg">
                     </div>
-                    <div class="menu-text-style-normal "> Workbench B2B</div>
-                    <div class="menu-text-style-normal "> Workbench Insights</div>
+                    <a href="/workbench-b2b">
+                        <div class="menu-text-style-normal ">Workbench B2B</div>
+                    </a>
+                    <a href="/workbench-insights">
+                        <div class="menu-text-style-normal ">Workbench Insights</div>
+                    </a>
                 </div>
                 <div class="sub-dropdown">
                     <div class="sub-dropdown-wrapper">
-                        <div class="menu-text-style-normal "> Digital Transformations</div>
-                        <div class="menu-text-style-normal "> Mergers & Acquisitions</div>
-                        <div class="menu-text-style-normal "> Technology & Startups</div>
-                        <div class="menu-text-style-normal "> Culture analytics</div>
+                        <a href="/digital-transformations">
+                            <div class="menu-text-style-normal ">
+                                Digital Transformations
+                            </div>
+                        </a>
+                        <a href="/mergers-acquisitions">
+                            <div class="menu-text-style-normal ">
+                                Mergers & Acquisitions
+                            </div>
+                        </a>
+                        <a href="/technology-startups">
+                            <div class="menu-text-style-normal ">
+                                Technology & Startups
+                            </div>
+                        </a>
+                        <a href="/culture-analytics">
+                            <div class="menu-text-style-normal ">
+                                Culture analytics
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -47,13 +70,13 @@
                 <span style="padding-right: 5px;">Why Temporall</span>
             </div>
             <div class="menu-text-style-normal">
-                <a href="#"> Integrations</a>
+                <a href="/integrations"> Integrations</a>
             </div>
             <div class="menu-text-style-normal">
-                <a href="#">Pricing</a>
+                <a href="/pricing/">Pricing</a>
             </div>
             <div class="menu-text-style-normal">
-                <a href="#"> Partners</a>
+                <a href="/partners">Partners</a>
             </div>
             <div class="menu-text-style-normal">
                 <button class="primary-btns">Sign in</button>
@@ -64,18 +87,18 @@
                 <a href="#"> Why Temporall</a>
             </div>
             <div class="menu-text-style-normal">
-                <a href="#"> Integrations</a>
+                <a href="/integrations"> Integrations</a>
             </div>
             <div class="menu-text-style-normal">
-                <a href="#">Pricing</a>
+                <a href="/pricing">Pricing</a>
             </div>
             <div class="menu-text-style-normal">
-                <a href="#"> Partners</a>
+                <a href="/partners"> Partners</a>
             </div>
             <button class="primary-btns">Sign in</button>
         </div>
     </div>
 </div>
-<script src="wp-content/themes/temporall_site/static-components/js/top-nav.js"></script>
+<script src="/wp-content/themes/temporall_site/static-components/js/top-nav.js"></script>
 </body>
 </html>

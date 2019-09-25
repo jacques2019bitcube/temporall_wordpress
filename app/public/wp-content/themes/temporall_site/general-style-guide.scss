@@ -4,20 +4,30 @@ $grey: #cccccc;
 $light-grey: #f8f8f8;
 
 @font-face {
-    font-family: "Roboto-Regular";
-    src: url("./assets/fonts/Roboto-Regular.ttf") format('truetype');
-  }
+  font-family: "Roboto-Regular";
+  src: url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
 
-  @font-face {
-    font-family: "Roboto-Bold";
-    src: url("./assets/fonts/Roboto-Bold.ttf") format('truetype');
-  }
-  @font-face {
-    font-family: "Roboto-Medium";
-    src: url("./assets/fonts/Roboto-Medium.ttf") format('truetype');
-  }
- 
- 
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("./assets/fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 18px;
+  color: #505050;
+  font-family: "Roboto-Bold";
+}
+
 /*headings*/
 .heading1 {
   font-family: "Roboto-Bold";
@@ -27,7 +37,7 @@ $light-grey: #f8f8f8;
   color: $dark-grey;
 }
 .heading2 {
-    font-family: "Roboto-Bold";
+  font-family: "Roboto-Bold";
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 0;
@@ -58,21 +68,21 @@ $light-grey: #f8f8f8;
   color: $dark-grey;
 }
 .menu-text-style-color {
-    font-family: "Roboto-Regular";
+  font-family: "Roboto-Regular";
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0;
   color: $orange;
 }
 .menu-text-style-bold {
-    font-family: "Roboto-Bold";
+  font-family: "Roboto-Bold";
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0;
   color: $dark-grey;
 }
 .link-text {
-    font-family: "Roboto-Medium";
+  font-family: "Roboto-Medium";
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0;
@@ -87,14 +97,14 @@ $light-grey: #f8f8f8;
 }
 
 .body-text {
-    font-family: "Roboto-Regular";
+  font-family: "Roboto-Regular";
   font-size: 18px;
   line-height: 26px;
   letter-spacing: 0;
   color: #505050;
 }
 
-.body-text-bold-colored{
+.body-text-bold-colored {
   font-family: "Roboto-Bold";
   font-size: 18px;
   line-height: 24px;
@@ -103,7 +113,7 @@ $light-grey: #f8f8f8;
 }
 
 .paragraph-text {
-    font-family: "Roboto-Medium";
+  font-family: "Roboto-Medium";
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0;
@@ -111,7 +121,7 @@ $light-grey: #f8f8f8;
 }
 
 .footer-text {
-    font-family: "Roboto-Regular";
+  font-family: "Roboto-Regular";
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0;
@@ -133,11 +143,12 @@ $light-grey: #f8f8f8;
   padding: 12px 12px;
 }
 .primary-btns:hover {
-  background: transparent linear-gradient(360deg, #ed7401 0%, #f7ae19 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(360deg, #ed7401 0%, #f7ae19 100%) 0%
+    0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 40px;
   opacity: 1;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 .secondary-btns {
   background: #000000 0% 0% no-repeat padding-box;
@@ -160,52 +171,60 @@ $light-grey: #f8f8f8;
 .pie-chart-icon {
   width: 40px;
   height: 40px;
-  background: transparent url("./assets/images/pie_chart.svg") 0% 0% no-repeat padding-box;
+  background: transparent url("./assets/images/pie_chart.svg") 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 .lock-icon {
   width: 40px;
   height: 52px;
-  background: transparent url("./assets/images/ic_lock_24px.svg") 0% 0% no-repeat padding-box;
+  background: transparent url("./assets/images/ic_lock_24px.svg") 0% 0%
+    no-repeat padding-box;
   opacity: 1;
 }
 
 .bar-chart-icon {
   width: 41px;
   height: 40px;
-  background: transparent url("./assets/images/bar_chart.svg") 0% 0% no-repeat padding-box;
+  background: transparent url("./assets/images/bar_chart.svg") 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 
 .score-icon {
   width: 40px;
   height: 40px;
-  background: transparent url("./assets/images/score.svg") 0% 0% no-repeat padding-box;
+  background: transparent url("./assets/images/score.svg") 0% 0% no-repeat
+    padding-box;
   opacity: 1;
 }
 .data-usage-icon {
   width: 40px;
   height: 40px;
-  background: transparent url("./assets/images/ic_data_usage_24px.svg") 0% 0% no-repeat padding-box;
+  background: transparent url("./assets/images/ic_data_usage_24px.svg") 0% 0%
+    no-repeat padding-box;
   opacity: 1;
 }
 .devices-icon {
   width: 45px;
   height: 30px;
-  background: transparent url("./assets/images/ic_devices_24px.svg") 0% 0% no-repeat padding-box;
+  background: transparent url("./assets/images/ic_devices_24px.svg") 0% 0%
+    no-repeat padding-box;
   opacity: 1;
 }
 
 .settings-icon {
   width: 40px;
   height: 41px;
-  background: transparent url("./assets/images/ic_settings_24px.svg") 0% 0% no-repeat padding-box;
+  background: transparent url("./assets/images/ic_settings_24px.svg") 0% 0%
+    no-repeat padding-box;
   opacity: 1;
 }
 
 .poll-icon {
   width: 40px;
   height: 40px;
-  background: transparent url("./assets/images/ic_poll_24px.svg") 0% 0% no-repeat padding-box;
+  background: transparent url("./assets/images/ic_poll_24px.svg") 0% 0%
+    no-repeat padding-box;
   opacity: 1;
 }

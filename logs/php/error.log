@@ -30,3 +30,15 @@
 [17-Sep-2019 11:58:13 UTC] PHP   2. require() /Users/bitcube/Documents/workspace/temporall2/app/public/index.php:17
 [17-Sep-2019 11:58:13 UTC] PHP   3. require_once() /Users/bitcube/Documents/workspace/temporall2/app/public/wp-blog-header.php:19
 [17-Sep-2019 11:58:13 UTC] PHP   4. include() /Users/bitcube/Documents/workspace/temporall2/app/public/wp-includes/template-loader.php:78
+[20-Sep-2019 11:24:11 UTC] PHP Fatal error:  Cannot redeclare loadMyBlock() (previously declared in /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-content/plugins/test-block/test-block.php:8) in /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-content/plugins/text-image/text-block.php on line 8
+[20-Sep-2019 11:24:11 UTC] PHP Stack trace:
+[20-Sep-2019 11:24:11 UTC] PHP   1. {main}() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-admin/plugins.php:0
+[20-Sep-2019 11:24:11 UTC] PHP   2. activate_plugin() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-admin/plugins.php:44
+[20-Sep-2019 11:24:12 UTC] PHP Fatal error:  Cannot redeclare loadMyBlock() (previously declared in /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-content/plugins/test-block/test-block.php:8) in /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-content/plugins/text-image/text-block.php on line 8
+[20-Sep-2019 11:24:12 UTC] PHP Stack trace:
+[20-Sep-2019 11:24:12 UTC] PHP   1. {main}() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-admin/plugins.php:0
+[20-Sep-2019 11:24:12 UTC] PHP   2. plugin_sandbox_scrape() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-admin/plugins.php:175
+[20-Sep-2019 11:24:12 UTC] PHP Fatal error:  Cannot redeclare loadMyBlock() (previously declared in /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-content/plugins/test-block/test-block.php:8) in /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-content/plugins/text-image/text-block.php on line 8
+[20-Sep-2019 11:24:12 UTC] PHP Stack trace:
+[20-Sep-2019 11:24:12 UTC] PHP   1. {main}() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-admin/plugins.php:0
+[20-Sep-2019 11:24:12 UTC] PHP   2. plugin_sandbox_scrape() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-admin/plugins.php:175
