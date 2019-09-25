@@ -9,7 +9,7 @@
   display: inline-block;
   width: 585px;
   height: 530px;
-  background: #F8F8F8;
+  background: #f8f8f8;
   opacity: 1;
   position: absolute;
   left: 0px;
@@ -20,7 +20,8 @@
   display: inline-block;
   width: 585px;
   height: 530px;
-  background: transparent url("./assets/images/markus-spiske-4T5MTKMrjZg-unsplash.png");
+  background: transparent
+    url("./assets/images/markus-spiske-4T5MTKMrjZg-unsplash.png");
   opacity: 1;
   position: absolute;
   right: 0px;
@@ -31,7 +32,9 @@
   padding: 45px 30px 41px 30px;
 }
 
-.left-text-right-image .heading2-colored, .left-text-right-image .body-text, .left-text-right-image .heading3 {
+.left-text-right-image .heading2-colored,
+.left-text-right-image .body-text,
+.left-text-right-image .heading3 {
   margin-top: 24px;
 }
 /*# sourceMappingURL=left-text-right-image-card.css.map */
