@@ -1,4 +1,4 @@
-<div class="container blocks">
+<div class="container six-block">
   <div class="block">
     <div class="header">
       {{#if icon1}}
@@ -44,39 +44,68 @@
 
     {{{ content4 }}}
   </div>
+
+  <div class="block">
+    <div class="header">
+      {{#if icon5}}
+      <img class="icon" src="{{ icon5.url }}" alt="{{ icon5.alt }}" />
+      {{/if}}
+
+      <h1 class="he2">{{ header5 }}</h1>
+    </div>
+
+    {{{ content5 }}}
+  </div>
+
+  <div class="block">
+    <div class="header">
+      {{#if icon6}}
+      <img class="icon" src="{{ icon6.url }}" alt="{{ icon6.alt }}" />
+      {{/if}}
+
+      <h1 class="he2">{{ header6 }}</h1>
+    </div>
+
+    {{{ content6 }}}
+  </div>
 </div>
 
 <style>
-  .container.blocks {
+  .container.six-block {
     justify-content: space-between;
     padding: 60px 0 0;
     flex-wrap: wrap;
     display: flex;
+    background-color: #f8f8f8;
   }
 
-  .container.blocks .block {
-    max-width: 570px;
-    background-color: #f8f8f8;
+  .container.six-block .block {
+    background-color: #fff;
+    max-width: 370px;
     border: 1px solid #e6e6e6;
     flex-grow: 1;
     padding: 30px;
     margin-bottom: 30px;
+    box-shadow: 0px 3px 6px #00000029;
     border-radius: 8px;
   }
 
-  .container.blocks .header {
+  .container.six-block .header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: baseline;
     margin-bottom: 22px;
   }
 
-  .container.blocks .icon {
+  .container.six-block .icon {
     margin-right: 20px;
   }
 
-  .container.blocks .he2 {
+  .container.six-block .he2 {
     margin: 0;
+  }
+
+  .six-block h1 {
     font-size: 28px;
     color: #373a3c;
   }
