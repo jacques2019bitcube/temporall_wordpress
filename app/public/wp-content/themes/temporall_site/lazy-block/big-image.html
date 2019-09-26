@@ -1,0 +1,19 @@
+<div class="image-container">
+  {{#if image}}
+  <img class="image" src="{{ image.url }}" alt="{{ image.alt }}" />
+  {{/if}}
+</div>
+
+<style>
+  .image-container {
+    max-width: 1170px;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-container .image {
+    max-height: 500px;
+  }
+</style>
