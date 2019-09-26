@@ -1,0 +1,28 @@
+<div class="checkmark">
+  <div class="check"></div>
+  <div class="content">{{{ content }}}</div>
+</div>
+
+<style>
+  .checkmark {
+    max-width: 550px;
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .checkmark .check {
+    border-left: #ed7401 solid 4px;
+    border-bottom: #ed7401 solid 4px;
+    width: 40px;
+    height: 15px;
+    -webkit-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+    flex-grow: 1;
+  }
+
+  .checkmark .content {
+    margin-left: 30px;
+    color: #505050;
+    font-size: 18px;
+  }
+</style>
