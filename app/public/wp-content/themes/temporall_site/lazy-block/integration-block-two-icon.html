@@ -1,0 +1,31 @@
+<div class="block-integration two-block">
+  <div>
+    {{#if icon1}}
+    <img class="icon" src="{{ icon1.url }}" alt="{{ icon1.alt }}" />
+    {{/if}}
+
+    {{#if icon2}}
+    <img class="icon" src="{{ icon2.url }}" alt="{{ icon2.alt }}" />
+    {{/if}}
+  </div>
+
+  {{{ content }}}
+</div>
+
+<style>
+  .block-integration {
+    padding: 30px;
+    max-width: 570px;
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: #fff;
+  }
+
+  .block-integration.two-block .icon {
+    margin-bottom: 30px;
+    margin-right: 30px;
+    display: inline-block;
+  }
+</style>
