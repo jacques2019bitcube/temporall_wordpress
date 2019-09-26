@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="text part">
+    {{#if icon}}
+    <img class="icon" src="{{ icon.url }}" alt="{{ icon.alt }}" />
+    {{/if}}
+
+    {{#if header1}}
+    <h1 class="he1">{{ header1 }}</h1>
+    {{/if}}
+
+    <h1 class="he2">{{ header2 }}</h1>
+    {{{ content }}}
+  </div>
+
+  <div class="pic part">
+    <img class="image" src="{{ image.url }}" alt="{{ image.alt }}" />
+  </div>
+</div>
+
+<style>
+  @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1170px;
+    padding: 0;
+  }
+
+  .part {
+    width: 50%;
+  }
+
+  .text {
+    background: #f8f8f8 0% 0% no-repeat padding-box;
+    padding: 40px 30px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    /* margin: 45px 30px 25px; */
+  }
+
+  h1 {
+    letter-spacing: 0;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-bottom: 24px;
+  }
+
+  h1.he1 {
+    font-size: 40px;
+    color: #ed7401;
+  }
+
+  h1.he2 {
+    font-size: 32px;
+    color: #373a3c;
+  }
+
+  p {
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #505050;
+    font-family: "Roboto";
+  }
+</style>

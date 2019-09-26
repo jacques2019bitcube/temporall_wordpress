@@ -1,0 +1,71 @@
+<div class="container blocks">
+  <div class="block">
+    <h1 class="he3">{{ header1 }}</h1>
+    <div class="graph" style="background-image: url({{ image1.url }})">
+      <div class="graphText">{{ graphText1 }}</div>
+    </div>
+    {{{ content3 }}}
+  </div>
+
+  <div class="block">
+    <h1 class="he3">{{ header2 }}</h1>
+    <div class="graph" style="background-image: url({{ image2.url }})">
+      <div class="graphText">{{ graphText2 }}</div>
+    </div>
+    {{{ content3 }}}
+  </div>
+
+  <div class="block">
+    <h1 class="he3">{{ header3 }}</h1>
+    <div class="graph" style="background-image: url({{ image3.url }})">
+      <div class="graphText">{{ graphText3 }}</div>
+    </div>
+    {{{ content3 }}}
+  </div>
+</div>
+
+<style>
+  .container.blocks {
+    justify-content: space-between;
+    padding: 60px 0;
+  }
+
+  h1.he3 {
+    text-align: center;
+    font-size: 28px;
+    color: #373a3c;
+  }
+
+  .block {
+    max-width: 370px;
+    height: 470px;
+    background-color: #f8f8f8;
+    border: 1px solid #e6e6e6;
+    flex-grow: 1;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .graph {
+    width: 216px;
+    height: 219px;
+    display: block;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+
+  .graphText {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 22px;
+    font-weight: bold;
+    color: #373a3c;
+  }
+</style>

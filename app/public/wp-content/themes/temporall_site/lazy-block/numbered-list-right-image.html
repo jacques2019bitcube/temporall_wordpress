@@ -1,0 +1,21 @@
+<div class="container" style="margin-top: 60px">
+  <div class="text part">
+    {{#if header}}
+    <h1 class="he2">{{ header }}</h1>
+    {{/if}}
+
+    <div class="numbered">{{{ content }}}</div>
+  </div>
+
+  <div class="pic part">
+    <img class="image" src="{{ image.url }}" alt="{{ image.alt }}" />
+  </div>
+</div>
+
+<style>
+  .numbered strong {
+    color: #ed7401;
+    font-weight: bold;
+    font-size: 18px;
+  }
+</style>

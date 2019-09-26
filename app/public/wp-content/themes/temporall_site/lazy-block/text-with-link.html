@@ -1,0 +1,26 @@
+<div class="text-block">
+  <div class="wrapper">
+    <h1 class="he2">{{ title }}</h1>
+    {{{ content }}}
+
+    {{#if btnlink}}
+    <br />
+    <a class="btn" href="{{ btnlink.url }}">{{ btntext }}</a>
+    {{/if}}
+  </div>
+</div>
+
+<style>
+  .text-block {
+    height: 300px;
+    display: flex;
+    background-color: #f8f8f8;
+    margin-top: 60px;
+  }
+
+  .text-block .wrapper {
+    margin: auto;
+    text-align: center;
+    max-width: 750px;
+  }
+</style>
