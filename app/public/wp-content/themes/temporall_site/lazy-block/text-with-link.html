@@ -1,8 +1,11 @@
-<div class="text-block" style="background-color: {{ boxcolor }}">
+<div
+  class="text-block"
+  style="background-color: {{ boxcolor }}; padding: {{ padding }}px"
+>
   <div class="wrapper">
     <h1 class="he2" style="color: {{ headercolor }}">{{ title }}</h1>
 
-    {{#if btnlink}}
+    {{#if subtitle}}
     <h2>{{ subtitle }}</h2>
     {{/if}}
 
@@ -26,10 +29,7 @@
   }
 
   .text-block {
-    height: 300px;
     display: flex;
-    /*background-color: #f8f8f8;*/
-    margin-top: 60px;
   }
 
   .text-block .wrapper {
