@@ -1,6 +1,6 @@
 <div class="footer-wrapper">
-    <div class="footer-image-text">
-    </div>
+    <!-- <div class="footer-image-text">
+    </div> -->
     <div class="footer">
         <div class="footer-flex-container">
             <div class="footer-flex-item">
