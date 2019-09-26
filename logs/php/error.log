@@ -42,3 +42,27 @@
 [20-Sep-2019 11:24:12 UTC] PHP Stack trace:
 [20-Sep-2019 11:24:12 UTC] PHP   1. {main}() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-admin/plugins.php:0
 [20-Sep-2019 11:24:12 UTC] PHP   2. plugin_sandbox_scrape() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-admin/plugins.php:175
+[25-Sep-2019 19:36:45 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/update.php on line 160
+[25-Sep-2019 19:36:45 UTC] PHP Stack trace:
+[25-Sep-2019 19:36:45 UTC] PHP   1. {main}() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-cron.php:0
+[25-Sep-2019 19:36:45 UTC] PHP   2. do_action_ref_array() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-cron.php:133
+[25-Sep-2019 19:36:45 UTC] PHP   3. WP_Hook->do_action() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/plugin.php:531
+[25-Sep-2019 19:36:45 UTC] PHP   4. WP_Hook->apply_filters() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/class-wp-hook.php:310
+[25-Sep-2019 19:36:45 UTC] PHP   5. wp_version_check() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/class-wp-hook.php:286
+[25-Sep-2019 19:36:45 UTC] PHP   6. trigger_error() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/update.php:160
+[25-Sep-2019 19:36:45 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/update.php on line 384
+[25-Sep-2019 19:36:45 UTC] PHP Stack trace:
+[25-Sep-2019 19:36:45 UTC] PHP   1. {main}() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-cron.php:0
+[25-Sep-2019 19:36:45 UTC] PHP   2. do_action_ref_array() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-cron.php:133
+[25-Sep-2019 19:36:45 UTC] PHP   3. WP_Hook->do_action() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/plugin.php:531
+[25-Sep-2019 19:36:45 UTC] PHP   4. WP_Hook->apply_filters() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/class-wp-hook.php:310
+[25-Sep-2019 19:36:45 UTC] PHP   5. wp_update_plugins() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/class-wp-hook.php:286
+[25-Sep-2019 19:36:45 UTC] PHP   6. trigger_error() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/update.php:384
+[25-Sep-2019 19:36:45 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/update.php on line 569
+[25-Sep-2019 19:36:45 UTC] PHP Stack trace:
+[25-Sep-2019 19:36:45 UTC] PHP   1. {main}() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-cron.php:0
+[25-Sep-2019 19:36:45 UTC] PHP   2. do_action_ref_array() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-cron.php:133
+[25-Sep-2019 19:36:45 UTC] PHP   3. WP_Hook->do_action() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/plugin.php:531
+[25-Sep-2019 19:36:45 UTC] PHP   4. WP_Hook->apply_filters() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/class-wp-hook.php:310
+[25-Sep-2019 19:36:45 UTC] PHP   5. wp_update_themes() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/class-wp-hook.php:286
+[25-Sep-2019 19:36:45 UTC] PHP   6. trigger_error() /Users/bitcube/Documents/Workspace/temporall_wordpress/app/public/wp-includes/update.php:569
