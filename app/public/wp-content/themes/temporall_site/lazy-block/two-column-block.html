@@ -1,0 +1,81 @@
+<div class="container blocks">
+  <div class="block">
+    <div class="header">
+      {{#if icon1}}
+      <img class="icon" src="{{ icon1.url }}" alt="{{ icon1.alt }}" />
+      {{/if}}
+      <h1 class="he2">{{ header1 }}</h1>
+    </div>
+
+    {{{ content1 }}}
+  </div>
+
+  <div class="block">
+    <div class="header">
+      {{#if icon2}}
+      <img class="icon" src="{{ icon2.url }}" alt="{{ icon2.alt }}" />
+      {{/if}}
+
+      <h1 class="he2">{{ header2 }}</h1>
+    </div>
+    {{{ content2 }}}
+  </div>
+
+  <div class="block">
+    <div class="header">
+      {{#if icon3}}
+      <img class="icon" src="{{ icon3.url }}" alt="{{ icon3.alt }}" />
+      {{/if}}
+
+      <h1 class="he2">{{ header3 }}</h1>
+    </div>
+
+    {{{ content3 }}}
+  </div>
+
+  <div class="block">
+    <div class="header">
+      {{#if icon4}}
+      <img class="icon" src="{{ icon4.url }}" alt="{{ icon4.alt }}" />
+      {{/if}}
+
+      <h1 class="he2">{{ header4 }}</h1>
+    </div>
+
+    {{{ content4 }}}
+  </div>
+</div>
+
+<style>
+  .container.blocks {
+    justify-content: space-between;
+    padding: 60px 0;
+    flex-wrap: wrap;
+  }
+
+  .container.blocks .block {
+    max-width: 570px;
+    background-color: #f8f8f8;
+    border: 1px solid #e6e6e6;
+    flex-grow: 1;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+  }
+
+  .container.blocks .header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 22px;
+  }
+
+  .container.blocks .icon {
+    margin-right: 20px;
+  }
+
+  .container.blocks .he2 {
+    /* display: inline-block; */
+    margin: 0;
+  }
+</style>
