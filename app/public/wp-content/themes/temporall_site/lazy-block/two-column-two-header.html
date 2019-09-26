@@ -1,0 +1,56 @@
+<div class="container two-column">
+  <div class="block">
+    <h1>{{ header1 }}</h1>
+    <div class="content">
+      <h1>{{ header2 }}</h1>
+      {{{ content1 }}}
+    </div>
+  </div>
+
+  <div class="block">
+    <h1>{{ header3 }}</h1>
+    <div class="content">
+      <h1>header4</h1>
+      {{{ content2 }}}
+    </div>
+  </div>
+</div>
+
+<style>
+  .container.two-column {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 0;
+    flex-wrap: wrap;
+    background-color: #f8f8f8;
+    margin: 0;
+    max-width: 100%;
+    flex-direction: row;
+  }
+
+  .two-column h1 {
+    font-size: 28px;
+    color: #373a3c;
+    margin-bottom: 22px;
+  }
+
+  .container.two-column .block {
+    max-width: 370px;
+    flex-grow: 1;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    box-shadow: 3px 3px 6px #00000029;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 30px;
+    flex-grow: 1;
+  }
+</style>

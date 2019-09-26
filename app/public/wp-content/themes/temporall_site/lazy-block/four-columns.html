@@ -1,0 +1,78 @@
+<div class="container blocks">
+  <div class="block">
+    {{#if icon1}}
+    <img class="icon" src="{{ icon1.url }}" alt="{{ icon1.alt }}" />
+    {{/if}}
+
+    <h1 class="he2">{{ header1 }}</h1>
+
+    {{{ content1 }}}
+  </div>
+
+  <div class="block">
+    {{#if icon2}}
+    <img class="icon" src="{{ icon2.url }}" alt="{{ icon2.alt }}" />
+    {{/if}}
+
+    <h1 class="he2">{{ header2 }}</h1>
+
+    {{{ content2 }}}
+  </div>
+
+  <div class="block">
+    {{#if icon3}}
+    <img class="icon" src="{{ icon3.url }}" alt="{{ icon3.alt }}" />
+    {{/if}}
+
+    <h1 class="he2">{{ header3 }}</h1>
+
+    {{{ content3 }}}
+  </div>
+
+  <div class="block">
+    {{#if icon4}}
+    <img class="icon" src="{{ icon4.url }}" alt="{{ icon4.alt }}" />
+    {{/if}}
+
+    <h1 class="he2">{{ header4 }}</h1>
+
+    {{{ content4 }}}
+  </div>
+</div>
+
+<style>
+  .container.blocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 0;
+    flex-direction: row;
+  }
+
+  .container.blocks .block {
+    max-width: 270px;
+    background-color: #f8f8f8;
+    border: 1px solid #e6e6e6;
+    flex-grow: 1;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container.blocks .icon {
+    width: 76px;
+    height: 76px;
+    margin-bottom: 24px;
+  }
+
+  .container.blocks h1.he2 {
+    font-size: 28px;
+    color: #373a3c;
+    margin-bottom: 24px;
+  }
+</style>
