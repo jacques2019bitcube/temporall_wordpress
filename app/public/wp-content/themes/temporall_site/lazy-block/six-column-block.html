@@ -1,112 +1,131 @@
 <div class="container six-block">
-  <div class="block">
-    <div class="header">
-      {{#if icon1}}
-      <img class="icon" src="{{ icon1.url }}" alt="{{ icon1.alt }}" />
-      {{/if}}
-      <h1 class="he2">{{ header1 }}</h1>
+  <h3 class="he">Our Partners</h3>
+  <div class="blocks">
+    <div class="block">
+      <div class="header">
+        {{#if icon1}}
+        <img class="icon" src="{{ icon1.url }}" alt="{{ icon1.alt }}" />
+        {{/if}}
+        <h1 class="he2">{{ header1 }}</h1>
+      </div>
+
+      {{{ content1 }}}
     </div>
 
-    {{{ content1 }}}
-  </div>
+    <div class="block">
+      <div class="header">
+        {{#if icon2}}
+        <img class="icon" src="{{ icon2.url }}" alt="{{ icon2.alt }}" />
+        {{/if}}
 
-  <div class="block">
-    <div class="header">
-      {{#if icon2}}
-      <img class="icon" src="{{ icon2.url }}" alt="{{ icon2.alt }}" />
-      {{/if}}
-
-      <h1 class="he2">{{ header2 }}</h1>
-    </div>
-    {{{ content2 }}}
-  </div>
-
-  <div class="block">
-    <div class="header">
-      {{#if icon3}}
-      <img class="icon" src="{{ icon3.url }}" alt="{{ icon3.alt }}" />
-      {{/if}}
-
-      <h1 class="he2">{{ header3 }}</h1>
+        <h1 class="he2">{{ header2 }}</h1>
+      </div>
+      {{{ content2 }}}
     </div>
 
-    {{{ content3 }}}
-  </div>
+    <div class="block">
+      <div class="header">
+        {{#if icon3}}
+        <img class="icon" src="{{ icon3.url }}" alt="{{ icon3.alt }}" />
+        {{/if}}
 
-  <div class="block">
-    <div class="header">
-      {{#if icon4}}
-      <img class="icon" src="{{ icon4.url }}" alt="{{ icon4.alt }}" />
-      {{/if}}
+        <h1 class="he2">{{ header3 }}</h1>
+      </div>
 
-      <h1 class="he2">{{ header4 }}</h1>
+      {{{ content3 }}}
     </div>
 
-    {{{ content4 }}}
-  </div>
+    <div class="block">
+      <div class="header">
+        {{#if icon4}}
+        <img class="icon" src="{{ icon4.url }}" alt="{{ icon4.alt }}" />
+        {{/if}}
 
-  <div class="block">
-    <div class="header">
-      {{#if icon5}}
-      <img class="icon" src="{{ icon5.url }}" alt="{{ icon5.alt }}" />
-      {{/if}}
+        <h1 class="he2">{{ header4 }}</h1>
+      </div>
 
-      <h1 class="he2">{{ header5 }}</h1>
+      {{{ content4 }}}
     </div>
 
-    {{{ content5 }}}
-  </div>
+    <div class="block">
+      <div class="header">
+        {{#if icon5}}
+        <img class="icon" src="{{ icon5.url }}" alt="{{ icon5.alt }}" />
+        {{/if}}
 
-  <div class="block">
-    <div class="header">
-      {{#if icon6}}
-      <img class="icon" src="{{ icon6.url }}" alt="{{ icon6.alt }}" />
-      {{/if}}
+        <h1 class="he2">{{ header5 }}</h1>
+      </div>
 
-      <h1 class="he2">{{ header6 }}</h1>
+      {{{ content5 }}}
     </div>
 
-    {{{ content6 }}}
+    {{#if content6}}
+    <div class="block">
+      <div class="header">
+        {{#if icon6}}
+        <img class="icon" src="{{ icon6.url }}" alt="{{ icon6.alt }}" />
+        {{/if}}
+
+        <h1 class="he2">{{ header6 }}</h1>
+      </div>
+
+      {{{ content6 }}}
+    </div>
+    {{/if}}
   </div>
 </div>
 
 <style>
-  .container.six-block {
-    justify-content: space-between;
-    padding: 60px 0 0;
-    flex-wrap: wrap;
-    display: flex;
+  @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+  .six-block {
     background-color: #f8f8f8;
+    max-width: 100%;
+    padding: 60px 0;
   }
 
-  .container.six-block .block {
+  .six-block .blocks {
+    max-width: 1200px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+  }
+
+  .six-block .block {
     background-color: #fff;
     max-width: 370px;
     border: 1px solid #e6e6e6;
     flex-grow: 1;
     padding: 30px;
+    /* margin-right: 30px; */
     margin-bottom: 30px;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 8px;
   }
 
-  .container.six-block .header {
+  .six-block .header {
     display: flex;
     flex-direction: column;
     align-items: baseline;
     margin-bottom: 22px;
   }
 
-  .container.six-block .icon {
+  .six-block .icon {
     margin-right: 20px;
   }
 
-  .container.six-block .he2 {
+  .six-block .he2 {
     margin: 0;
   }
 
   .six-block h1 {
     font-size: 28px;
     color: #373a3c;
+  }
+
+  h3 {
+    font-size: 32px;
+    text-align: center;
+    font-family: "Roboto";
   }
 </style>
