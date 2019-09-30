@@ -1,0 +1,57 @@
+<div class="header-container">
+  <div class="header">
+    <h1 class="compare">{{ compare }}</h1>
+
+    <h1>{{ business }}</h1>
+
+    <div class="prefer">
+      <h2>{{ preffered }}</h2>
+      <h1>{{ professional }}</h1>
+    </div>
+
+    <h1>{{ b2b }}</h1>
+  </div>
+</div>
+
+<style>
+  .wp-block-lazyblock-compare-header {
+    width: 100%;
+  }
+
+  .header-container {
+    display: flex;
+    border-top: #e2e2e2 solid 1px;
+    padding-top: 30px;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .header-container h1 {
+    font-size: 28px;
+    color: #373a3c;
+  }
+
+  .header-container h2 {
+    font-size: 20px;
+    color: #ed7401;
+  }
+
+  .header-container .compare {
+    flex-grow: 2;
+  }
+
+  .header-container .prefer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .header-container .header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-between;
+  }
+</style>
