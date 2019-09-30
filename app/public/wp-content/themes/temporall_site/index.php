@@ -23,7 +23,7 @@
 
 
     <div class="why-us-text heading3">
-        Helping our clients and partners think and act different.
+        Helping our clients and partners <i>think</i> and <i>act</i> different.
     </div>
 
 
@@ -119,7 +119,7 @@
 
     <div class="productStatement-wrapper">
         <div class="product-statement-main-img">
-            <img src="wp-content/themes/temporall_site/assets/images/Temporall-Macbook-Screen-2.png">
+            <img src="wp-content/themes/temporall_site/assets/images/Image-3.png">
         </div>
         <div class="product-statement-small-img-and-text-text-right">
             <div class="product-statement-small-img">
@@ -142,6 +142,10 @@
     </div>
 
 
+    <div class="why-us-text heading3" style="border: none">
+        Continuous insights from across your organisation
+    </div>
+
     <div class="product-statement">
         <div class="productStatement-wrapper">
             <div class="product-statement-small-img-and-text-text-left">
@@ -150,13 +154,16 @@
                 </div>
                 <div class="product-statment-text">
                     <p class="heading3">Measure organisational impact <br> with our financial dashboard
-                        <p class="body-text">Turn key goals into organisational performance <br>
-                            indicators, utilise over fifty revenue and income <br> metrics pre-configured or
-                            create your own to meet <br> your specific needs.
+                        <p class="body-text">
+                            Turn key goals into organisational performance<br>
+                            indicators, utilise over fifty revenue and income metrics<br>
+                            pre-configured or create your own to meet your specific<br>
+                            needs.
+                        </p>
                 </div>
             </div>
             <div class="product-statement-main-img">
-                <img src="wp-content/themes/temporall_site/assets/images/Temporall--Macbook-Screen-3.png">
+                <img src="wp-content/themes/temporall_site/assets/images/Image-4.png">
             </div>
         </div>
     </div>
