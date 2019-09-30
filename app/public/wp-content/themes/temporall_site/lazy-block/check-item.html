@@ -1,0 +1,40 @@
+<div class="list-item">
+  <p>{{ desc }}</p>
+
+  <div class="check {{#if first}} checked {{else}} unchecked {{/if}}"></div>
+  <div class="check {{#if second}} checked {{else}} unchecked {{/if}}"></div>
+  <div class="check {{#if third}} checked {{else}} unchecked {{/if}}"></div>
+</div>
+
+<style>
+  .list-item {
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .list-item p {
+    margin: 0;
+    flex-grow: 2;
+  }
+
+  .list-item .check {
+    flex-grow: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .list-item .check.checked {
+    width: 30px;
+    height: 30px;
+    margin-left: 1px;
+  }
+
+  .list-item .check.unchecked {
+    width: 19px;
+    height: 19px;
+  }
+</style>
