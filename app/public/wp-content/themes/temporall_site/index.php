@@ -23,7 +23,7 @@
 
 
     <div class="why-us-text heading3">
-        Changing the way you think about your people, culture and organisation
+        Helping our clients and partners think and act different.
     </div>
 
 
@@ -38,23 +38,31 @@
                 </div>
                 <div class="product-statment-text">
                     <p class="heading3">Intelligent insights, <br> informed decision making</p>
-                    <p class="body-text">Powerful data analytics, machine learning, and <br> dashboards
-                        transforms quantitative, qualitative, sentiment <br> and network analysis data from
-                        people,
-                        teams and <br> systems into high impact insights.</p>
+                    <p class="body-text">
+                        Workbench, an organisational insights platform that<br>
+                        uncovers and unlocks high impact insights and value from<br>
+                        your people, teams and systems. Powered by data<br>
+                        analytics, machine learning, reporting and dashboards<br>
+                        derived from quantitative, qualitative, sentiment and<br>
+                        network analysis from across your organisation.
+                    </p>
                 </div>
             </div>
             <div class="product-statement-main-img">
-                <img class="img-responsive" src="wp-content/themes/temporall_site/assets/images/Rectangle 532.png">
+                <img class="img-responsive" src="wp-content/themes/temporall_site/assets/images/Image-1.png">
             </div>
         </div>
 
     </div>
 
+    <div class="why-us-text heading3">
+        Generate unique and contextualised insights
+    </div>
+
 
     <div class="productStatement-wrapper">
         <div class="product-statement-main-img">
-            <img class="img-responsive" src="wp-content/themes/temporall_site/assets/images/Temporall-Macbook-Screen-4.png">
+            <img class="img-responsive" src="wp-content/themes/temporall_site/assets/images/Image-2.png">
         </div>
         <div class="product-statement-small-img-and-text-text-right">
             <div class="product-statement-small-img">
@@ -62,23 +70,21 @@
             </div>
             <div class="product-statment-text">
                 <p class="heading3">Structured frameworks, <br> real-time data capture</p>
-                <p class="body-text">Use our industry-leading Organisational and Manager <br> Indexes or
-                    Partner Indexes for rapid diagnosis of <br> strengths and shortcomings via our App, Slack,
-                    <br> Workplace by Facebook, Teams and email to capture <br> continuous data at scale.
+                <p class="body-text">
+                    Develop and act on a deep understanding of your<br>
+                    organisation’s capabilities in key areas such as<br>
+                    digital, culture, leadership, compliance and<br>
+                    innovation utilising our own industry-leading<br>
+                    Organisational Index and Manager Index, and<br>
+                    third-party Partner frameworks that are hosted on<br>
+                    the Workbench platform.
+                </p>
             </div>
         </div>
     </div>
 
     <div class="integration-section">
         <div class="integration-logos">
-
-            <div class="integration-items integration-text-section">
-                <div class="integration-text">
-                    <p class="heading3"> Meet people <br> where they work </p>
-                    <p class="body-text">Integrate with your favourite systems
-                        <br> and gather data in one place</p>
-                </div>
-            </div>
             <div class="integration-items integration-logo-section">
                 <div class="integration-items integraion-logo-spacing">
                     <img style="width: 79px; height: 9.875%;" src="wp-content/themes/temporall_site/assets/images/Temporall-App-Icon-rounded-800x800.png">
@@ -96,7 +102,17 @@
                     <img style="width: 79px; height:19.75%;" src="wp-content/themes/temporall_site/assets/images/microsoft-teams-400x396.png">
                 </div>
             </div>
+        </div>
 
+        <div class="integration-text-section">
+            <div class="integration-text">
+                <p class="heading3"> Meet people where they work </p>
+                <p class="body-text">
+                    Integrate and gather insights from your favourite communication tools such as Slack,<br>
+                    Workplace by Facebook, Microsoft Teams or our Workbench native Apps to meet people where they are,<br>
+                    continuously capture critical insights at scale and at pace.
+                </p>
+            </div>
         </div>
     </div>
 
@@ -111,9 +127,16 @@
             </div>
             <div class="product-statment-text">
                 <p class="heading3">Discover and unlock <br> previously untapped value
-                    <p class="body-text">Combine data from Workbench and enterprise <br> productivity
-                        tools, CRM, and HR systems to discover and <br> unlock opportunities to deliver
-                        cross-systems insight; <br> build networks, improve productivity, drive engagement.
+                    <p class="body-text">
+                        Combine data from Workbench, existing<br>
+                        enterprise systems such as CRM, HR,<br>
+                        communication, and productivity systems and<br>
+                        tools to discover and unlock opportunities to<br>
+                        deliver cross-systems insight and business<br>
+                        improvement; increase productivity, drive higher<br>
+                        engagement, develop a culture of innovation,<br>
+                        measure your digital readiness.
+                    </p>
             </div>
         </div>
     </div>
