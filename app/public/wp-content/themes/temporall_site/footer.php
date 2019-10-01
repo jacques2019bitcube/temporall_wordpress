@@ -3,23 +3,23 @@
     </div> -->
     <div class="footer">
         <div class="footer-flex-container">
-            <div class="footer-flex-item">
-                <div class="body-text">Company</div>
+            <div class="footer-flex-item" >
+                <div class="body-text" style="font-weight: bold;">Company</div>
                 <div class="footer-text">
                     <a href="/about"> About </a>
-                    <a href="/board"> Board</a>
-                    <a href="#"> Blogs </a>
-                    <a href="/press"> Press</a>
+                    <a href="/board"> Executive team</a>
+                    <!-- <a href="#"> Blogs </a> -->
+                    <!-- <a href="/press"> Press</a> -->
                     <a href="/privacy-policy"> Terms & Privacy </a>
                 </div>
             </div>
             <div class="footer-flex-item">
-                <div class="body-text">Contact</div>
+                <div class="body-text" style="font-weight: bold;">Contact</div>
                 <div class="footer-text">
                     <a href="mailto:contactus@temporall.com">contactus@temporall.com </a>
                     <a href="tel:+44 (0)20 7164 6830">+44 (0)20 7164 6830 </a>
                     <a href="/newsletter"> Newsletter </a>
-                    <a href="/careers"> Careers </a>
+                    <!-- <a href="/careers"> Careers </a> -->
                 </div>
             </div>
             <div class="footer-flex-item ">
@@ -36,3 +36,5 @@
         </div>
     </div>
 </div>
+
+<?php include(get_template_directory() . '/contact-form-modal/contact-form.php'); ?>

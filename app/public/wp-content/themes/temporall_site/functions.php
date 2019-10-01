@@ -22,4 +22,7 @@ function theme_styles()
 
 }
 add_action('wp_enqueue_scripts', 'theme_styles');
+
+// CODE ADDED BY RIAAN
+include(get_template_directory() . '/functions-riaan.php');
 ?>

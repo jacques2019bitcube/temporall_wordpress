@@ -1,18 +1,34 @@
+<?php 
+    define('RECAPTCHA_SITE_KEY','6LeDtroUAAAAAD4eEeEIoCQ5VhBXvgovb6DMdg3P');
+    define('RECAPTCHA_SECRET_KEY','6LeDtroUAAAAAGOQskpONcjL2UylHLfmfbjPWMe2');
+?>
+
 <!DOCTYPE html>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 
-<head>
+<head>	
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(). '/left-text-right-image-card.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(). '/general-style-guide.css' ?>">
-    <title>title</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js?render=explicit&onload=onRecaptchaLoadCallback"></script>
+    <title>Temporall</title>
     <?php wp_head() ?> 
 </head>
+
+<style>
+        html, body {
+            font-family: 'Roboto', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: antialiased;
+            font-smoothing: antialiased;
+        }
+    </style>
 
 <body>
 <div class="header-and-menu">
@@ -31,7 +47,7 @@
             <div class="dropdown">
                 <div class="dropdown-wrapper">
                     <div id="activate-sub-dropdown" class="menu-text-style-bold ">
-                        Cases
+                        Use cases
                         <img src="/wp-content/themes/temporall_site/assets/images/ic_arrow_drop_down_24px_right.svg">
                     </div>
                     <a href="/workbench-b2b">
@@ -48,6 +64,11 @@
                                 Digital Transformations
                             </div>
                         </a>
+                        <a href="/culture-analytics">
+                            <div class="menu-text-style-normal ">
+                                Culture analytics
+                            </div>
+                        </a>
                         <a href="/mergers-acquisitions">
                             <div class="menu-text-style-normal ">
                                 Mergers & Acquisitions
@@ -55,14 +76,9 @@
                         </a>
                         <a href="/technology-startups">
                             <div class="menu-text-style-normal ">
-                                Technology & Startups
+                                Scale-up
                             </div>
-                        </a>
-                        <a href="/culture-analytics">
-                            <div class="menu-text-style-normal ">
-                                Culture analytics
-                            </div>
-                        </a>
+                        </a>                        
                     </div>
                 </div>
             </div>
