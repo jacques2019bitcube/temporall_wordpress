@@ -1,8 +1,7 @@
-<div style="background-color: {{ backgroundcolor }}">
+<div style="background-color: {{ backgroundcolor }}; ">
   <div
-    style="justify-content: {{ justify }}; align-items: {{ align }}"
-    class="container integration"
-  >
+    style="justify-content: {{ justify }}; align-items: {{ align }}; padding: {{ padding_top }}px 0 {{padding_bottom}}px 0"
+    class="container integration">
     {{{ blocks }}}
   </div>
 </div>
@@ -14,10 +13,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 60px 0;
   }
 
-  .container.integration > div {
+  .container.integration>div {
     margin-right: 30px;
   }
 </style>

@@ -1,10 +1,17 @@
-<div class="list-item">
-  <p>{{ desc }}</p>
-
-  <div class="check {{#if first}} checked {{else}} unchecked {{/if}}"></div>
-  <div class="check {{#if second}} checked {{else}} unchecked {{/if}}"></div>
-  <div class="check {{#if third}} checked {{else}} unchecked {{/if}}"></div>
-</div>
+<tr>
+  <td class="first">
+    <span>{{ desc }}</span>
+  </td>
+  <td class="second">
+    <div class="check {{#if first}} checked {{else}} unchecked {{/if}}"></div>
+  </td>
+  <td class="third">
+    <div class="check {{#if second}} checked {{else}} unchecked {{/if}}"></div>
+  </td>
+  <td class="fourth">
+    <div class="check {{#if third}} checked {{else}} unchecked {{/if}}"></div>
+  </td>
+</tr>
 
 <style>
   .list-item {
@@ -27,13 +34,20 @@
     background-position: right;
   }
 
-  .list-item .check.checked {
+  .check {
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .check.checked {
     width: 30px;
     height: 30px;
     margin-left: 1px;
   }
 
-  .list-item .check.unchecked {
+  .check.unchecked {
     width: 19px;
     height: 19px;
   }

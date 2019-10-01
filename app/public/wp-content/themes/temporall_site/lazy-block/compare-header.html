@@ -1,16 +1,26 @@
 <div class="header-container">
-  <div class="header">
-    <h1 class="compare">{{ compared }}</h1>
+  <table class="table-head">
+    <tr>
+      <td class="first">
+        <h1 class="compare">{{ compared }}</h1>
+      </td>
 
-    <h1>{{ business }}</h1>
+      <td class="second">
+        <h1>{{ business }}</h1>
+      </td>
 
-    <div class="prefer">
-      <h2>{{ preffered }}</h2>
-      <h1>{{ professional }}</h1>
-    </div>
+      <td class="third">
+        <div class="prefer">
+          <h2>{{ preffered }}</h2>
+          <h1>{{ professional }}</h1>
+        </div>
+      </td>
 
-    <h1>{{ b2b }}</h1>
-  </div>
+      <td class="fourth">
+        <h1>{{ b2b }}</h1>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <!-- first dropdown -->
@@ -19,7 +29,11 @@
   <div class="arrow {{ blockid }}"></div>
 </div>
 
-<div class="dropdown-content" id="{{ blockid }}-content">{{{ blocks }}}</div>
+<div class="dropdown-content" id="{{ blockid }}-content">
+  <table class="content">
+    {{{blocks}}}
+  </table>
+</div>
 
 <style>
   .wp-block-lazyblock-compare-header {
@@ -64,6 +78,15 @@
     justify-content: space-between;
   }
 
+  /* table */
+  table {
+    width: 100%;
+  }
+
+  .table-head tr {
+    vertical-align: bottom;
+  }
+
   /* dropdown css */
   .header-dropdown {
     width: 100%;
@@ -93,17 +116,47 @@
     transform: rotate(-45deg);
   }
 
-  .list-item .check.checked {
+  .check.checked {
     background-image: url({{checkedimage.url}});
+    position: relative;
   }
 
-  .list-item .check.unchecked {
+  .check.unchecked {
     background-image: url({{uncheckedimage.url}});
+    position: relative;
+  }
+
+  .content tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+
+  .content tr {
+    height: 58px;
+    border-bottom: #e6e6e6 solid 1px;
+  }
+
+  .first {
+    width: 50%;
+  }
+
+  .second {
+    width: 16%;
+    text-align: center;
+  }
+
+  .third {
+    width: 16%;
+    text-align: center;
+  }
+
+  .fourth {
+    width: 16%;
+    text-align: center;
   }
 </style>
 
 <script>
-  $("#{{ blockid }}").on("click", function() {
+  $("#{{ blockid }}").on("click", function () {
     $(".arrow.{{blockid}}").toggleClass("down");
     $("#{{blockid}}-content").slideToggle();
   });
