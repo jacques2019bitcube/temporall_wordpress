@@ -141,7 +141,7 @@
     </div>
 
 
-    <div class="why-us-text heading3" style="border: none">
+    <div class="why-us-text heading3" style="border-top: 1px solid #e2e2e2;">
         Continuous insights from across your organisation
     </div>
 
