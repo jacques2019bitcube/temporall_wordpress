@@ -41,6 +41,10 @@
   }
 }
 
+.header-and-menu .menu .menu-dropdown {
+  cursor: pointer;
+}
+
 .header-and-menu .menu .menu-dropdown img {
   display: inline-block;
 }
@@ -110,10 +114,11 @@
   text-decoration: none;
 }
 
-.header-and-menu .menu-text-style-normal a:hover, .header-and-menu .menu-text-style-normal :hover {
-  color: #ED7401;
+.header-and-menu .menu-text-style-normal a:hover,
+.header-and-menu .menu-text-style-normal :hover {
+  color: #ed7401;
   text-decoration: none;
-  border-bottom: 1px solid #ED7401;
+  border-bottom: 1px solid #ed7401;
 }
 
 .header-and-menu .burger-bar {
