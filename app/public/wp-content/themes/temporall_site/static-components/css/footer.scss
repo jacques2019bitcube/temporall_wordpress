@@ -81,8 +81,13 @@
       flex-flow: column wrap;
       text-align: center;
 
-      .footer-text{
+      .footer-text {
         padding-bottom: 20px;
+      }
+
+      .icons {
+        display: flex;
+        justify-content: center;
       }
     }
   }

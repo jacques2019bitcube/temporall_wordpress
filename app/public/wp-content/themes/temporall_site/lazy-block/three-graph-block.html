@@ -1,5 +1,5 @@
 <div class="container blocks">
-  <div class="block">
+  <div class="g-block block">
     <h1 class="he3">{{ header1 }}</h1>
     <div class="graph" style="background-image: url({{ image1.url }})">
       <div class="graphText">{{ graphText1 }}</div>
@@ -7,7 +7,7 @@
     <div>{{{ content1 }}}</div>
   </div>
 
-  <div class="block">
+  <div class="g-block block">
     <h1 class="he3">{{ header2 }}</h1>
     <div class="graph" style="background-image: url({{ image2.url }})">
       <div class="graphText">{{ graphText2 }}</div>
@@ -15,7 +15,7 @@
     <div>{{{ content2 }}}</div>
   </div>
 
-  <div class="block">
+  <div class="g-block block">
     <h1 class="he3">{{ header3 }}</h1>
     <div class="graph" style="background-image: url({{ image3.url }})">
       <div class="graphText">{{ graphText3 }}</div>
@@ -68,5 +68,16 @@
     font-size: 22px;
     font-weight: bold;
     color: #373a3c;
+  }
+
+  @media (max-width: 920px) {
+    .g-block {
+      margin: 10px auto;
+      max-width: 580px;
+    }
+
+    .graph {
+      margin: 10px auto;
+    }
   }
 </style>

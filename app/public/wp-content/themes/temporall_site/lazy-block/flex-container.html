@@ -1,6 +1,6 @@
 <div style="background-color: {{ backgroundcolor }}; ">
   <div
-    style="justify-content: {{ justify }}; align-items: {{ align }}; padding: {{ padding_top }}px 0 {{padding_bottom}}px 0"
+    style="justify-content: {{ justify }}; align-items: {{ align }}; padding: {{padding_top}}px 0 {{ padding_bottom }}px 0"
     class="container integration">
     {{{ blocks }}}
   </div>
@@ -17,5 +17,16 @@
 
   .container.integration>div {
     margin-right: 30px;
+  }
+
+  @media (max-width: 1200px) {
+    .container.integration {
+      flex-direction: column;
+      justify-content: center !important;
+    }
+
+    .container.integration>div {
+      margin: auto;
+    }
   }
 </style>
