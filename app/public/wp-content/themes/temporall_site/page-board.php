@@ -81,7 +81,7 @@
     <main id="main" class="site-main">
         <div class="wrapper">
             <div class="wp-block-lazyblock-hero lazyblock-hero-2ieFUb">
-                <div class="hero" style="background-image: url(http://stagingtemporall.local/wp-content/uploads/2019/09/Header-image-assets-4.png);">
+                <div class="hero" style="background-image: url(http://v4staging.temporall.com/wp-content/uploads/2019/09/Header-image-assets-4.png);">
                     <div class="wrapper" style="max-width: 770px;">
                         <h1 class="title">Temporall</h1>
                     </div>
@@ -100,13 +100,13 @@
                 <h2>Executive team</h2>
                 <div class="exec-team-member">
                     <img src="/wp-content/uploads/2019/09/Mask-Group-35.png" alt="Thomas Davies">
-                    <h3>Thomas Davies</h3>
-                    <h4>CEO & Founder</h4>
+                    <h3 style="font-size:20px">Thomas Davies</h3>
+                    <h4 style="font-size:14px">CEO & Founder</h4>
                 </div>
                 <div class="exec-team-member">
                     <img src="/wp-content/uploads/2019/09/Mask-Group-34.png" alt="Sanjay Patel">
-                    <h3>Sanjay Patel</h3>
-                    <h4>European Sales Director</h4>
+                    <h3 style="font-size:20px">Sanjay Patel</h3>
+                    <h4 style="font-size:14px">Chief Business Officer</h4>
                 </div>          
             </div>
 
@@ -114,18 +114,18 @@
                 <h2 style="color: #ED7401;">Board</h2>
                 <div class="exec-team-member">
                     <img src="/wp-content/uploads/2019/09/Mask-Group-28.png" alt="Kim Wylie">
-                    <h3>Kim Wylie</h3>
-                    <h4>Board Advisor</h4>
+                    <h3 style="font-size:20px">Kim Wylie</h3>
+                    <h4 style="font-size:14px">Board Advisor</h4>
                 </div>
                 <div class="exec-team-member">
                     <img src="/wp-content/uploads/2019/09/Mask-Group-26.png" alt="Bijan Bedroud">
-                    <h3>Bijan Bedroud</h3>
-                    <h4>Investor & Board Member</h4>
+                    <h3 style="font-size:20px">Bijan Bedroud</h3>
+                    <h4 style="font-size:14px">Investor & Board Member</h4>
                 </div>    
                 <div class="exec-team-member">
                     <img src="/wp-content/uploads/2019/09/Mask-Group-29.png" alt="Julian Birkinshawl">
-                    <h3>Julian Birkinshaw</h3>
-                    <h4>NED / Board Member</h4>
+                    <h3 style="font-size:20px">Julian Birkinshaw</h3>
+                    <h4 style="font-size:14px">NED / Board Member</h4>
                 </div>          
             </div>
         </div>

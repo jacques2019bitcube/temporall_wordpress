@@ -17,6 +17,17 @@ $light-grey: #f8f8f8;
   src: url("./assets/fonts/Roboto-Medium.ttf") format("truetype");
 }
 
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 18px;
+  color: #505050;
+  font-family: "Roboto-Bold";
+}
+
 /*headings*/
 .heading1 {
   font-family: "Roboto-Bold";
@@ -120,7 +131,6 @@ $light-grey: #f8f8f8;
 /*buttons*/
 .primary-btns {
   background: #ed7401 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #00000029;
   border-radius: 40px;
   opacity: 1;
   width: 150px;

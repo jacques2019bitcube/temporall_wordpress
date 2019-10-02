@@ -6,7 +6,7 @@
     line-height: 28px;
   }
   .body-text {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
   }
 
   .footer-imageText {
@@ -71,8 +71,8 @@
     flex-flow: row wrap;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    max-width: 912px;
     margin: 20px auto;
+    max-width: 80%;
 
     @media (max-width: 700px) {
       -webkit-box-orient: vertical;
@@ -81,13 +81,8 @@
       flex-flow: column wrap;
       text-align: center;
 
-      .footer-text {
+      .footer-text{
         padding-bottom: 20px;
-      }
-
-      .icons {
-        display: flex;
-        justify-content: center;
       }
     }
   }

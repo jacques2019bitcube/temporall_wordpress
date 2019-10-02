@@ -41,7 +41,7 @@
   }
 }
 
-.header-and-menu .menu .menu-dropdown {
+.menu-dropdown {
   cursor: pointer;
 }
 
@@ -115,11 +115,10 @@
   text-decoration: none;
 }
 
-.header-and-menu .menu-text-style-normal a:hover,
-.header-and-menu .menu-text-style-normal :hover {
-  color: #ed7401;
+.header-and-menu .menu-text-style-normal a:hover, .header-and-menu .menu-text-style-normal :hover {
+  color: #ED7401;
   text-decoration: none;
-  border-bottom: 1px solid #ed7401;
+  border-bottom: 1px solid #ED7401;
 }
 
 .header-and-menu .burger-bar {

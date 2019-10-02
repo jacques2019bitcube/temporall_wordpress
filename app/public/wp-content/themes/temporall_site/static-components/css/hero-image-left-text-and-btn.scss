@@ -1,5 +1,5 @@
 .hero-text-and-image {
-  height: 779px;
+  height: 700px;
   width: 100%;
   position: relative;
   background-color: #f8f8f8;
@@ -81,7 +81,10 @@
       height: 600px;
     }
     .hero-image img {
-      width: 700px !important;
+      width: 600px !important;
     }
+    .img-responsive {
+      width: 600px !important;
+}
   }
 }

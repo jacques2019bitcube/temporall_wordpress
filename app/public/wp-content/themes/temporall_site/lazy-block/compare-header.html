@@ -30,9 +30,8 @@
 </div>
 
 <div class="dropdown-content" id="{{ blockid }}-content">
-  <table class="content" style="display: none">
-    {{{blocks
-    }}}
+  <table class="content">
+    {{{blocks}}}
   </table>
 </div>
 
@@ -157,7 +156,7 @@
 </style>
 
 <script>
-  $("#{{ blockid }}").on("click", function() {
+  $("#{{ blockid }}").on("click", function () {
     $(".arrow.{{blockid}}").toggleClass("down");
     $("#{{blockid}}-content").slideToggle();
   });

@@ -1,52 +1,48 @@
 <div class="container blocks">
-  <div class="con">
-    <div class="block two-block">
-      <div class="header">
-        {{#if icon1}}
-        <img class="icon" src="{{ icon1.url }}" alt="{{ icon1.alt }}" />
-        {{/if}}
-        <h1 class="he2">{{ header1 }}</h1>
-      </div>
-
-      {{{ content1 }}}
+  <div class="block">
+    <div class="header">
+      {{#if icon1}}
+      <img class="icon" src="{{ icon1.url }}" alt="{{ icon1.alt }}" />
+      {{/if}}
+      <h1 class="he2">{{ header1 }}</h1>
     </div>
 
-    <div class="block two-block">
-      <div class="header">
-        {{#if icon2}}
-        <img class="icon" src="{{ icon2.url }}" alt="{{ icon2.alt }}" />
-        {{/if}}
-
-        <h1 class="he2">{{ header2 }}</h1>
-      </div>
-      {{{ content2 }}}
-    </div>
+    {{{ content1 }}}
   </div>
 
-  <div class="con">
-    <div class="block two-block">
-      <div class="header">
-        {{#if icon3}}
-        <img class="icon" src="{{ icon3.url }}" alt="{{ icon3.alt }}" />
-        {{/if}}
+  <div class="block">
+    <div class="header">
+      {{#if icon2}}
+      <img class="icon" src="{{ icon2.url }}" alt="{{ icon2.alt }}" />
+      {{/if}}
 
-        <h1 class="he2">{{ header3 }}</h1>
-      </div>
+      <h1 class="he2">{{ header2 }}</h1>
+    </div>
+    {{{ content2 }}}
+  </div>
 
-      {{{ content3 }}}
+  <div class="block">
+    <div class="header">
+      {{#if icon3}}
+      <img class="icon" src="{{ icon3.url }}" alt="{{ icon3.alt }}" />
+      {{/if}}
+
+      <h1 class="he2">{{ header3 }}</h1>
     </div>
 
-    <div class="block two-block">
-      <div class="header">
-        {{#if icon4}}
-        <img class="icon" src="{{ icon4.url }}" alt="{{ icon4.alt }}" />
-        {{/if}}
+    {{{ content3 }}}
+  </div>
 
-        <h1 class="he2">{{ header4 }}</h1>
-      </div>
+  <div class="block">
+    <div class="header">
+      {{#if icon4}}
+      <img class="icon" src="{{ icon4.url }}" alt="{{ icon4.alt }}" />
+      {{/if}}
 
-      {{{ content4 }}}
+      <h1 class="he2">{{ header4 }}</h1>
     </div>
+
+    {{{ content4 }}}
   </div>
 </div>
 
@@ -83,19 +79,5 @@
     margin: 0;
     font-size: 28px;
     color: #373a3c;
-  }
-
-  .con {
-    width: 50%;
-  }
-
-  @media (max-width: 920px) {
-    .two-block {
-      margin: 10px auto;
-      max-width: 580px;
-    }
-    .con {
-      width: 90%;
-    }
   }
 </style>

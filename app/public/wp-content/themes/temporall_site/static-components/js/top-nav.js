@@ -41,6 +41,7 @@ $("#top-nav").ready(function() {
   });
 
   $("#activate-sub-dropdown").hover(function() {
-    $(".sub-dropdown").show();
+    $(".sub-dropdown").show();    
   });
+  
 });

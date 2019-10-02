@@ -1,5 +1,5 @@
 .hero-text-and-image {
-  height: 779px;
+  height: 700px;
   width: 100%;
   position: relative;
   background-color: #f8f8f8;
@@ -78,14 +78,9 @@
   .hero-text-and-image .hero-image img {
     width: 650px !important;
   }
+      .img-responsive {
+      width: 600px !important;
+}
 }
 
-@media screen and (min-width: 1400px) and (max-width: 1600px) {
-  .hero-text-and-image .hero-text-and-image {
-    height: 600px;
-  }
-  .hero-text-and-image .hero-image img {
-    width: 700px !important;
-  }
-}
 /*# sourceMappingURL=hero-image-left-text-and-btn.css.map */

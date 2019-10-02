@@ -1,4 +1,4 @@
-<div class="footer-wrapper" style="background: #f8f8f8 0% 0% no-repeat padding-box">
+<div class="footer-wrapper" style="background: #FCFCFC 0% 0% no-repeat padding-box">
     <!-- <div class="footer-image-text">
     </div> -->
     <div class="footer">
@@ -22,6 +22,8 @@
                     <!-- <a href="/careers"> Careers </a> -->
                 </div>
             </div>
+             <div class="footer-flex-item"></div>
+               <div class="footer-flex-item"></div>
             <div class="footer-flex-item ">
                 <div class="body-text"><img src="/wp-content/themes/temporall_site/assets/images/Path 62.svg"></div>
                 <div class="footer-text">
@@ -30,7 +32,7 @@
                     <p> VOX Studios, 1-45 Durham Street, </p>
                     <p> London, SE11 5JH </p>
                 </div>
-                <div style="display: flex">
+                <div class="icons">
                 <a target="_blank" href="https://twitter.com/temporalluk?lang=en"><img style="padding-right: 15px;" src="/wp-content/themes/temporall_site/assets/images/Twitter.svg"></a>
                 <a target="_blank" href="https://www.linkedin.com/company/temporall/"><img src="/wp-content/themes/temporall_site/assets/images/Path 604.svg"></a>
                 </div>

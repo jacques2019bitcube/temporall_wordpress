@@ -23,7 +23,7 @@
     
     }, false);
 
-    contact_us_buttons = jQuery('a[href="/contact-us"]');
+	contact_us_buttons = jQuery('a[href="/contact-us"], .contact-us-button');
     if (contact_us_buttons.length>0) {
         contact_us_buttons.on('click',function(e) {
             e.preventDefault();

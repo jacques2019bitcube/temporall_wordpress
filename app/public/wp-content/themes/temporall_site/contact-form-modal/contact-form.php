@@ -79,4 +79,4 @@ echo '</style>';
 </div>
 
 <script>var RECAPTCHA_SITE_KEY="<?php echo RECAPTCHA_SITE_KEY?>";</script>
-<script type="text/javascript" src="wp-content/themes/temporall_site/contact-form-modal/contact-form.js"></script>
+<script type="text/javascript" src="/wp-content/themes/temporall_site/contact-form-modal/contact-form.js"></script>

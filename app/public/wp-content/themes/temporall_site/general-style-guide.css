@@ -13,6 +13,16 @@
   src: url("./assets/fonts/Roboto-Medium.ttf") format("truetype");
 }
 
+html { 
+  margin-top: 32px !important; 
+}
+
+@media ( max-width: 782px ) {
+  html { 
+    margin-top: 46px !important; 
+  }
+}
+
 /*headings*/
 .heading1 {
   font-family: "Roboto-Bold";
@@ -120,6 +130,10 @@
   color: #373a3c;
 }
 
+.footer-text p {
+   font-size: 13px;
+}
+
 /*buttons*/
 .primary-btns {
   background: #ed7401 0% 0% no-repeat padding-box;
@@ -143,7 +157,7 @@
           box-shadow: 0px 3px 6px #00000029;
   border-radius: 40px;
   opacity: 1;
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 .secondary-btns {

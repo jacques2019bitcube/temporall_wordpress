@@ -3,6 +3,17 @@
 
 <html>
 
+<style>
+        html {
+        margin-top: 0px !important;
+            margin: 0px !important;
+        }
+        button:focus {
+    outline:none !important;
+}
+
+    </style>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,7 +33,7 @@
 
 
     <div class="why-us-text heading3">
-        Helping our clients and partners <i>think</i> and <i>act</i> different.
+        Helping our clients and partners think and act different.
     </div>
 
 
@@ -37,13 +48,8 @@
                 </div>
                 <div class="product-statment-text">
                     <p class="heading3">Intelligent insights, <br> informed decision making</p>
-                    <p class="body-text">
-                        Workbench, an organisational insights platform that<br>
-                        uncovers and unlocks high impact insights and value from<br>
-                        your people, teams and systems. Powered by data<br>
-                        analytics, machine learning, reporting and dashboards<br>
-                        derived from quantitative, qualitative, sentiment and<br>
-                        network analysis from across your organisation.
+                    <p class="body-text" style="max-width:480px">
+                        Our organisational insights platform, Workbench, uncovers and unlocks high-impact insights and helps our clients make better decisions. We take quantitative, qualitative, sentiment and network analysis data from across an organisation and using analytics, machine learning, dashboards, and reporting provides deep organisational intelligence.
                     </p>
                 </div>
             </div>
@@ -59,7 +65,7 @@
     </div>
 
 
-    <div class="productStatement-wrapper">
+    <div class="productStatement-wrapper" style="margin-top:-50px">
         <div class="product-statement-main-img">
             <img class="img-responsive" src="wp-content/themes/temporall_site/assets/images/Image-2.png">
         </div>
@@ -69,20 +75,22 @@
             </div>
             <div class="product-statment-text">
                 <p class="heading3">Structured frameworks, <br> real-time data capture</p>
-                <p class="body-text">
-                    Develop and act on a deep understanding of your<br>
-                    organisation’s capabilities in key areas such as<br>
-                    digital, culture, leadership, compliance and<br>
-                    innovation utilising our own industry-leading<br>
-                    Organisational Index and Manager Index, and<br>
-                    third-party Partner frameworks that are hosted on<br>
-                    the Workbench platform.
+                <p class="body-text" style="max-width:480px">
+                    Develop and act on a deep understanding of your organisation’s capabilities in key areas such as digital, culture, leadership, compliance and
+innovation utilising our own industry-leading Organisational Index, and
+third-party Partner frameworks and services that are hosted on and generated from the Workbench platform.
                 </p>
             </div>
         </div>
     </div>
 
     <div class="integration-section">
+            <div class="integration-text-section">
+            <div class="integration-text">
+                <p class="heading3"> Meet people where they work </p>
+            </div>
+        </div>  
+    
         <div class="integration-logos">
             <div class="integration-items integration-logo-section">
                 <div class="integration-items integraion-logo-spacing">
@@ -105,7 +113,6 @@
 
         <div class="integration-text-section">
             <div class="integration-text">
-                <p class="heading3"> Meet people where they work </p>
                 <p class="body-text">
                     Integrate and gather insights from your favourite communication tools such as Slack,<br>
                     Workplace by Facebook, Microsoft Teams or our Workbench native Apps to meet people where they are,<br>
@@ -116,7 +123,7 @@
     </div>
 
 
-    <div class="productStatement-wrapper">
+    <div class="productStatement-wrapper" style="margin-top:-50px">
         <div class="product-statement-main-img">
             <img src="wp-content/themes/temporall_site/assets/images/Image-3.png">
         </div>
@@ -141,7 +148,7 @@
     </div>
 
 
-    <div class="why-us-text heading3" style="border-top: 1px solid #e2e2e2;">
+    <div class="why-us-text heading3" style="border: none;border-top: 1px solid #e2e2e2; ">
         Continuous insights from across your organisation
     </div>
 
@@ -155,7 +162,7 @@
                     <p class="heading3">Measure organisational impact <br> with our financial dashboard
                         <p class="body-text">
                             Turn key goals into organisational performance<br>
-                            indicators, utilise over fifty revenue and income metrics<br>
+                            indicators, utilise revenue and income metrics<br>
                             pre-configured or create your own to meet your specific<br>
                             needs.
                         </p>
@@ -169,9 +176,7 @@
 
     <div class="product-statement-only-text">
         <div class="container">
-            <p class="heading3"> Continuous organisational insights to help you
-                deliver strategic transformation efforts such as digital
-                transformation, mergers & acquisitions, and major change programmes. </p>
+            <p class="heading3"> Utilise organisational intelligence for sustained performance and competitive edge. </p>
         </div>
     </div>
 

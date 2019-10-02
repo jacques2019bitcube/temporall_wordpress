@@ -13,12 +13,13 @@
       left: 11.67%;
       position: relative;
     }
-
+    
     @media (max-width: 450px) {
       .logoMain img {
         width: 75%;
       }
     }
+    
   }
   .menu-text-style-normal {
     display: inline-block;
@@ -40,13 +41,12 @@
       // padding: 0px 0px 29px 0px !important;
       // width: 181px;
       // text-align: center;
-      cursor: pointer;
 
       img {
         display: inline-block;
       }
     }
-
+   
     .dropdown {
       position: absolute;
       height: 162px;
@@ -55,7 +55,7 @@
       z-index: 2;
       background: #ffffff 0% 0% no-repeat padding-box;
       -webkit-box-shadow: 0px 3px 6px #00000029;
-      box-shadow: 0px 3px 6px #00000029;
+              box-shadow: 0px 3px 6px #00000029;
       opacity: 1;
       display: none;
 
@@ -69,6 +69,8 @@
       .sub-dropdown {
         display: none;
       }
+
+     
 
       .menu-text-style-normal,
       .menu-text-style-bold {
@@ -86,16 +88,15 @@
 
     .sub-dropdown {
       -webkit-transform: translateX(186px);
-      transform: translateX(186px);
+              transform: translateX(186px);
       position: absolute;
       top: 0px;
-      left: -5px;
       .sub-dropdown-wrapper {
         width: 205px;
         height: 216px;
         background: #ffffff 0% 0% no-repeat padding-box;
         -webkit-box-shadow: 0px 3px 6px #00000029;
-        box-shadow: 0px 3px 6px #00000029;
+                box-shadow: 0px 3px 6px #00000029;
         opacity: 1;
       }
       .sub-dropdown-wrapper {
@@ -114,13 +115,12 @@
   }
 
   .menu-text-style-normal {
-    a:hover,
-    :hover {
-      color: #ed7401;
+    a:hover, :hover  {
+      color: #ED7401;
       text-decoration: none;
-      border-bottom: 1px solid #ed7401;
+      border-bottom: 1px solid #ED7401;
     }
-
+   
     // .signInButton {
     //   font-size: 14px;
     // }
