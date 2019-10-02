@@ -35,10 +35,12 @@ $("#top-nav").ready(function() {
   $(".email").on("click", function() {});
 
   $(".phone").on("click", function() {});
-  $(".menu-dropdown").on("click", function() {
+
+  $(".menu-dropdown").hover(function() {
     $(".dropdown").show();
   });
-  $("#activate-sub-dropdown").on("click", function() {
+
+  $("#activate-sub-dropdown").hover(function() {
     $(".sub-dropdown").show();
   });
 });
